@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Login - Task 2</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    body {
+      background-image: url('image/img1.avif');
+      background-size: cover;
+      background-position: center;
+    }
+    .glass {
+      backdrop-filter: blur(12px);
+      background: rgba(255, 255, 255, 0.2);
+      border-radius: 1rem;
+      padding: 2rem;
+      box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    }
+  </style>
+</head>
+<body class="min-h-screen flex items-center justify-center">
+
+  <div class="glass text-center w-full max-w-md">
+    <h1 class="text-3xl font-bold text-white mb-6">Login As</h1>
+    <div class="space-y-4">
+      <a href="celebrity.html" class="block bg-purple-600 text-white font-medium py-3 px-6 rounded hover:bg-purple-700 transition">
+        Celebrity
+      </a>
+      <a href="public.html" class="block bg-blue-600 text-white font-medium py-3 px-6 rounded hover:bg-blue-700 transition">
+        Public
+      </a>
+    </div>
+  </div>
+
+</body>
+</html>

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Celebrity Panel</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://cdn.socket.io/4.7.5/socket.io.min.js"></script>
+
+</head>
+<body class="bg-gray-100 text-center p-6">
+  <h1 class="text-xl font-bold text-purple-700 mb-4">Celebrity Panel</h1>
+  <form id="postForm" class="max-w-xl mx-auto bg-white p-4 rounded shadow space-y-4">
+    <textarea id="postText" placeholder="What's on your mind?" class="w-full p-2 border rounded"></textarea>
+    <input type="file" id="postImage" />
+    <button type="submit" class="bg-green-600 text-white px-4 py-2 rounded">Post</button>
+  </form>
+  <div id="postList" class="max-w-xl mx-auto mt-6 space-y-4"></div>
+  <script src="celebrity.js"></script>
+</body>
+</html>
